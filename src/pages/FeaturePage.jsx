@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/PageStyles.css";
+import "./styles//pageStyles.css";
 
 import kareGif from "../assets/kare.gif";
 

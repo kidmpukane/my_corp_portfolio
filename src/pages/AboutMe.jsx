@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/PageStyles.css";
+import "./styles/pageStyles.css";
 import normalImage from "../assets/normal_photo.png";
 import myCv from "../assets/Lwandiso-Zwane-FlowCV-Resume-20250509.pdf";
 

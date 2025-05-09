@@ -5,7 +5,7 @@ import FeaturePage from "./FeaturePage";
 import ProjectsPage from "./ProjectsPage";
 import ProblemSolvingPage from "./ProblemSolvingPage";
 import { Element, Link as ScrollLink } from "react-scroll";
-import "./styles/PageStyles.css";
+import "./styles/pageStyles.css";
 
 const InfiniteScrollPage = () => {
   const [menuOpen, setMenuOpen] = useState(false);
