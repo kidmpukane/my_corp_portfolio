@@ -1,6 +1,5 @@
 import React from "react";
-import "./styles//pageStyles.css";
-
+import "./styles/pageStyles.css";
 import kareGif from "../assets/kare.gif";
 
 const FeaturePage = () => {
