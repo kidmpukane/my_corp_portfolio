@@ -1,0 +1,16 @@
+:root {
+  padding: 1rem;
+  color: #26414d;
+  background-color: #efefef;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+} */

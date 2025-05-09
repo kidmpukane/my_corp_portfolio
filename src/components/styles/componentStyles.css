@@ -1,0 +1,64 @@
+.clickable-card-background {
+  background-size: cover; /* Make the image cover the entire card */
+  background-position: center; /* Center the image within the card */
+  border-radius: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Clip content within rounded borders */
+  cursor: pointer;
+  display: flex; /* Enable flexbox for content alignment */
+  flex-direction: column; /* Stack content vertically */
+  justify-content: flex-end; /* Push content to the bottom initially */
+  align-items: center; /* Center content horizontally */
+  aspect-ratio: 16 / 12; /* Maintain a consistent aspect ratio */
+  transition: transform 0.3s ease-in-out;
+}
+
+.clickable-card-background:hover {
+  transform: scale(1.05);
+}
+
+.card-content-overlay {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.2
+  ); /* Semi-transparent black background for readability */
+  color: white;
+  padding: 20px;
+  align-items: center;
+  width: 100%; /* Make the overlay take full width */
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+.project-name {
+  font-size: 1.2rem;
+}
+
+.project-description {
+  font-size: 0.7rem;
+  margin-bottom: 15px;
+}
+
+.project-button {
+  width: 100%;
+  margin-top: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  border-radius: 2rem;
+  border-color: #26414d;
+  border-width: 0.1rem;
+  color: #26414d;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.project-button:hover {
+  background-color: #26414d;
+  color: #eff0a4;
+  border-width: none;
+}
