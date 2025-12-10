@@ -65,11 +65,10 @@
 
 .clickable-container {
   padding: 2rem;
-  background-color: #eff0a4;
 }
 .project-container {
   margin: 0;
-  padding: 0; /* negative padding does nothing; remove it */
+  padding: 0;
   display: grid;
   width: 100%;
   grid-template-columns: 40% 40% 20%;
@@ -78,24 +77,26 @@
 
 .p-spec {
   font-family: "Handjet", sans-serif;
-  font-size: 1.6rem;
-  font-weight: 600;
-
-  line-height: 1; /* pulls lines tight */
+  font-size: 2rem;
+  font-weight: 400;
+  color: #c7cdb7;
+  line-height: 1;
 }
 
 .p-spec p {
-  margin: 0.6rem; /* removes default browser spacing */
+  margin: 0.6rem;
 }
 
 .p-description {
   font-size: 1rem;
   font-family: "JetBrains Mono", monospace;
-  max-width: 60ch; /* ideal reading width */
-  margin-right: auto; /* or auto left/right to center */
+  color: #d9d9d9;
+  max-width: 60ch;
+  margin-right: auto;
 }
 .p-links {
   font-family: "Handjet", sans-serif;
+  color: #d2daff;
   height: 100%;
   font-size: 1.2rem;
   font-weight: 500;
@@ -106,7 +107,7 @@
 }
 
 .p-links p {
-  margin-bottom: 2.2rem; /* removes default browser spacing */
+  line-height: 3;
 }
 @media (max-width: 700px) {
   .project-container {
