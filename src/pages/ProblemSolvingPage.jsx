@@ -1,7 +1,11 @@
 import React from "react";
-
+import ClickableContainer from "../components/ClickableContanier";
 function ProblemSolvingPage() {
-  return <div>ProblemSolvingPage</div>;
+  return (
+    <div>
+      <ClickableContainer />
+    </div>
+  );
 }
 
 export default ProblemSolvingPage;

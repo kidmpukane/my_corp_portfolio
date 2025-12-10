@@ -62,3 +62,11 @@
   color: #eff0a4;
   border-width: none;
 }
+
+.project-container {
+  display: flex;
+  width: 100%;
+  background-color: #eff0a4;
+  align-items: center;
+  justify-content: space-between;
+}
