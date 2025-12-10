@@ -63,10 +63,40 @@
   border-width: none;
 }
 
-.project-container {
-  display: flex;
-  width: 100%;
+.clickable-container {
+  padding: 2rem;
   background-color: #eff0a4;
+}
+.project-container {
+  margin: 0;
+  padding: 0; /* negative padding does nothing; remove it */
+  display: grid;
+  width: 100%;
+  grid-template-columns: 40% 40% 20%;
   align-items: center;
-  justify-content: space-between;
+}
+
+.p-spec {
+  font-size: 0.6rem;
+}
+
+.p-description {
+  font-size: 1rem;
+  max-width: 60ch; /* ideal reading width */
+  margin-right: auto; /* or auto left/right to center */
+}
+.p-links {
+  justify-self: end; /* optional: aligns the links to the right side */
+}
+
+@media (max-width: 700px) {
+  .project-container {
+    grid-template-columns: 1fr; /* stack */
+    row-gap: 0.5rem;
+  }
+}
+@media (max-width: 500px) {
+  .clickable-card-background {
+    aspect-ratio: 4 / 3; /* Adjust aspect ratio for smaller screens */
+  }
 }
