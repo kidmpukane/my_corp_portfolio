@@ -36,16 +36,58 @@ function ProblemSolvingPage() {
         </div>
       </div>
       <div className="technologies-skills">
-        <a className="ts-header">TECH STACK</a>
+        <a className="ts-header">Technical Depth & Competencies</a>
+
+        {/* Machine Learning & AI */}
         <div className="ml-skills">
-          <a className="tech-stack-header">Machine Learning</a>
-          <div className="tech-stack-list-right"></div>
-          <div className="tech-stack-list-left"></div>
+          <a className="tech-stack-header">Machine Learning & AI</a>
+          <div className="tech-stack-list-right">
+            <p>
+              Predictive Maintenance, Fault & Anomaly Detection, Sequence Models
+              (LSTM/Bi-LSTM)
+            </p>
+            <p>
+              NLP Intent Parsing, RAG Pipelines, Agentic Reasoning, Contextual
+              Memory
+            </p>
+          </div>
+          <div className="tech-stack-list-left">
+            <p>Feature Engineering, Model Evaluation & Experiment Tracking</p>
+            <p>Explainability (SHAP, LIME), Industrial AI Systems</p>
+          </div>
         </div>
+
+        {/* Software Engineering & Backend */}
         <div className="swe-skills">
-          <a className="tech-stack-header">Software Engineering</a>
-          <div className="tech-stack-list-right"></div>
-          <div className="tech-stack-list-left"></div>
+          <a className="tech-stack-header">Software Engineering & Backend</a>
+          <div className="tech-stack-list-right">
+            <p>Python, Node.js, FastAPI, REST APIs</p>
+            <p>
+              Microservice Architecture, Event-Driven Systems, Async Pipelines
+            </p>
+          </div>
+          <div className="tech-stack-list-left">
+            <p>CI/CD (GitHub Actions), Docker, Terraform</p>
+            <p>
+              SQL/NoSQL (PostgreSQL, MySQL), Logging & Observability (FTIR/FDIR
+              Tracing)
+            </p>
+          </div>
+        </div>
+
+        {/* Systems Architecture */}
+        <div className="architecture-skills">
+          <a className="tech-stack-header">Systems & Architecture</a>
+          <div className="tech-stack-list-right">
+            <p>Modular Reasoning Engines, Pluggable Agent Architectures</p>
+            <p>Event-Oriented, Data-Intensive & Distributed Systems</p>
+          </div>
+          <div className="tech-stack-list-left">
+            <p>
+              Fault-Tolerant Patterns, API Gateways, Schema Design & Versioning
+            </p>
+            <p>Scalable, Evolvable, and Observable System Design</p>
+          </div>
         </div>
       </div>
     </div>
