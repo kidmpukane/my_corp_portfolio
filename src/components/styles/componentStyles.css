@@ -77,18 +77,37 @@
 }
 
 .p-spec {
-  font-size: 0.6rem;
+  font-family: "Handjet", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  line-height: 1; /* pulls lines tight */
+}
+
+.p-spec p {
+  margin: 0.6rem; /* removes default browser spacing */
 }
 
 .p-description {
   font-size: 1rem;
+  font-family: "JetBrains Mono", monospace;
   max-width: 60ch; /* ideal reading width */
   margin-right: auto; /* or auto left/right to center */
 }
 .p-links {
+  font-family: "Handjet", sans-serif;
+  height: 100%;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: right;
+  justify-self: start;
+  align-self: start;
   justify-self: end; /* optional: aligns the links to the right side */
 }
 
+.p-links p {
+  margin-bottom: 2.2rem; /* removes default browser spacing */
+}
 @media (max-width: 700px) {
   .project-container {
     grid-template-columns: 1fr; /* stack */

@@ -6,9 +6,9 @@ const ClickableContainer = () => {
     <div className="clickable-container">
       <div className="project-container">
         <div className="p-spec">
-          <h1>MULTI-AGENT ENERGY OPERATIONS SYSTEM</h1>
-          <h2>ENERGY & UTILITIES</h2>
-          <h3>AGENTIC AI</h3>
+          <p>MULTI-AGENT ENERGY OPERATIONS SYSTEM</p>
+          <p>ENERGY & UTILITIES</p>
+          <p>AGENTIC AI</p>
         </div>
         <div className="p-description">
           <p>
@@ -19,7 +19,7 @@ const ClickableContainer = () => {
           </p>
         </div>
         <div className="p-links">
-          <p>VIEW REPO</p>
+          <p>VIEW REPO ⇢</p>
           <p>2025</p>
         </div>
       </div>
