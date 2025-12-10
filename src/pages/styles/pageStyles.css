@@ -195,7 +195,11 @@
 }
 
 /*-----------------------------About Me-----------------------------*/
-.profile-container {
+.about-me-container {
+  display: flex;
+  justify-content: center;
+}
+.personal-info-container {
   display: grid;
   gap: 2rem;
   padding: 2rem;
