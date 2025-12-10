@@ -36,6 +36,7 @@ function ProblemSolvingPage() {
         </div>
       </div>
       <div className="technologies-skills">
+        <a className="ts-header">TECH STACK</a>
         <div className="ml-skills">
           <a className="tech-stack-header">Machine Learning</a>
           <div className="tech-stack-list-right"></div>

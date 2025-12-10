@@ -239,6 +239,34 @@
   max-width: 60ch;
   color: #d9d9d9;
 }
+
+.technologies-skills {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.ts-header {
+  font-family: "Handjet", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 400;
+  color: #c7cdb7;
+}
+
+.ml-skills {
+}
+.tech-stack-header {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #c7cdb7;
+}
+.tech-stack-list-right {
+}
+.tech-stack-list-left {
+}
+.swe-skills {
+}
 /*----------------------------------------------------------------------------------*/
 /*--------------------------------- Mobile Styles ---------------------------------*/
 /*--------------------------------------------------------------------------------*/
