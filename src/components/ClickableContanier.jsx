@@ -3,7 +3,10 @@ import "./styles/componentStyles.css";
 
 const ClickableContainer = (props) => {
   return (
-    <div className="clickable-container" onClick={() => console.log("clicked")}>
+    <div
+      className="clickable-container"
+      onClick={() => console.log(props.onClick)}
+    >
       <div className="project-container">
         <div className="p-spec">
           <p>{props.projectName}</p>
@@ -27,4 +30,4 @@ const ClickableContainer = (props) => {
   );
 };
 
-export default ClickableContainer;
+export { ClickableContainer };

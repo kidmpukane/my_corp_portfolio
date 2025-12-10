@@ -1,9 +1,9 @@
 import React from "react";
-import ClickableContainer from "../components/ClickableContanier";
+import ProjectsPage from "./ProjectsPage";
 function ProblemSolvingPage() {
   return (
     <div>
-      <ClickableContainer />
+      <ProjectsPage />
     </div>
   );
 }
