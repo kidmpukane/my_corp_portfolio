@@ -1,26 +1,26 @@
 import React from "react";
 import "./styles/componentStyles.css";
 
-const ClickableContainer = () => {
+const ClickableContainer = (props) => {
   return (
-    <div className="clickable-container">
+    <div className="clickable-container" onClick={() => console.log("clicked")}>
       <div className="project-container">
         <div className="p-spec">
-          <p>MULTI-AGENT ENERGY OPERATIONS SYSTEM</p>
-          <p>ENERGY & UTILITIES</p>
-          <p>AGENTIC AI</p>
+          <p>{props.projectName}</p>
+          <p>{props.projectIndustry}</p>
+          <p>{props.projectCategory}</p>
         </div>
+
         <div className="p-description">
           <p>
-            We take pride in our scientific, data-driven approach to building
-            websites that deliver results. Every decision is backed by research
-            and tested to meet your needs. Every decision is backed by research
-            and tested to meet your needs.
+            {props.projectDescription ||
+              "A brief description of the project goes here. It provides an overview of the project's goals, features, and technologies used."}
           </p>
         </div>
+
         <div className="p-links">
           <p>VIEW REPO ⇢</p>
-          <p>2025</p>
+          <p>{props.projectYear}</p>
         </div>
       </div>
     </div>
