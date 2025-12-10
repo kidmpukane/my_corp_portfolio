@@ -66,6 +66,10 @@
 .clickable-container {
   padding: 2rem;
 }
+.clickable-container:hover {
+  cursor: pointer;
+  background-color: #3a3a3a;
+}
 .project-container {
   margin: 0;
   padding: 0;
