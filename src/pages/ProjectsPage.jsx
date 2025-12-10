@@ -4,7 +4,7 @@ import { ClickableContainer } from "../components/ClickableContanier";
 
 const projectInfo = [
   {
-    project_name: "AVA Autonomous Virtual Assistant",
+    project_name: "AVA -[Autonomous Virtual Assistant]",
     industry: "Industrial Automation",
     category: "AI-Agent Orchestration",
     description:
@@ -13,7 +13,7 @@ const projectInfo = [
     link: "https://github.com/kidmpukane/ava",
   },
   {
-    project_name: "Grid Guard -(AVA Framework Module)",
+    project_name: "Grid Guard -[AVA Framework Module]",
     industry: "Energy and Utilities",
     category: "AI Reasoning Engine",
     description:
