@@ -2,22 +2,22 @@ import React from "react";
 
 function ProblemSolvingPage() {
   return (
-    <div>
+    <div className="profile-container">
       <div className="name-and-occupation">
-        <a>LWANDISO ZWANE </a>
+        <a className="spec-header-l">LWANDISO ZWANE </a>
         <span>MACHINE LEARNING ENGINEER</span>
       </div>
       <div className="my-specs">
         <div className="spec-item-1">
-          <a>Age:</a>
+          <a className="spec-header">Age:</a>
           <a> 26</a>
         </div>
         <div className="spec-item-2">
-          <a>Location:</a>
+          <a className="spec-header">Location:</a>
           <a>South Africa (Mpumalanga, Witbank)</a>
         </div>
         <div className="spec-item-3">
-          <a>Mobility:</a>
+          <a className="spec-header">Mobility:</a>
           <a>Open to relocation</a>
         </div>
       </div>
