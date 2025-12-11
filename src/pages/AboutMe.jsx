@@ -53,11 +53,31 @@ function AboutMe() {
           <div>
             <a className="contact-me-h">SOCIALS</a>
             <div className="contact-list">
-              <a>-X</a>
-              <a>-LINKEDIN</a>
-              <a>-GITHUB</a>
-              <a>-EMAIL</a>
-              <a>-MEDIUM</a>
+              <a
+                href="https://www.linkedin.com/in/lwandiso-zwane-60506a252/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LINKEDIN
+              </a>
+
+              <a
+                href="https://github.com/kidmpukane"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GITHUB
+              </a>
+
+              <a href="mailto:lwandisozwane91@gmail.com">EMAIL</a>
+
+              <a
+                href="https://medium.com/@n_lwandisozwane"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                MEDIUM
+              </a>
             </div>
             <div className="profile-cta">
               <button
@@ -142,8 +162,3 @@ function AboutMe() {
 }
 
 export default AboutMe;
-
-// ("lwandisozwane91@gmail.com");
-// ("https://www.linkedin.com/in/lwandiso-zwane-60506a252/");
-// ("https://medium.com/@n_lwandisozwane");
-// ("https://github.com/kidmpukane");
