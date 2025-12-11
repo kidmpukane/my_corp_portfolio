@@ -43,11 +43,12 @@ const InfiniteScrollPage = () => {
         </button> */}
       </div>
 
-      {/* SECTIONS */}
+      <h1 className="page-header">MY PROJECTS</h1>
       <Element name="projects-page">
         <ProjectsPage />
       </Element>
 
+      <h1 className="page-header">ABOUT ME</h1>
       <Element name="about-me-page">
         <AboutMe />
       </Element>

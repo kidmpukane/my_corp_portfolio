@@ -1,3 +1,18 @@
+.infinite-scroll-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+  padding: 4rem 8rem;
+}
+
+.page-header {
+  font-family: "Handjet", sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+  color: #c7cdb7;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
 /*-----------------About Me-----------------------------*/
 
 .about-me-container {
