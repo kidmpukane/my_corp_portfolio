@@ -48,16 +48,16 @@ function AboutMe() {
             orchestration and modern RAG frameworks.
           </a>
         </div>
-        <div>
+        <div className="contact-container">
           <a className="spec-header-l">CONTACT ME</a>
           <div>
-            <a className="contact-me-h">Socials</a>
-            <div className="socails-list">
+            <a className="contact-me-h">SOCIALS</a>
+            <div className="contact-list">
               <a>-X</a>
               <a>-LINKEDIN</a>
               <a>-GITHUB</a>
               <a>-EMAIL</a>
-              <a>MEDIUM</a>
+              <a>-MEDIUM</a>
             </div>
             <div className="profile-cta">
               <button
