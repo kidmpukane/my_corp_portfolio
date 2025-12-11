@@ -16,112 +16,134 @@ function AboutMe() {
     aTag.remove();
   };
   return (
-    <div className="profile-container">
-      <div className="profile-sidebar">
-        <div className="profile-tagline">
-          <h1 className="tagline-quote">
-            "Certified MLE with 4+ Years of Applied Experience"
-          </h1>
+    <div className="about-me-container">
+      <div className="personal-info-container">
+        <div className="name-and-occupation">
+          <a className="spec-header-l">LWANDISO ZWANE </a>
+          <span>MACHINE LEARNING ENGINEER</span>
         </div>
-        <div className="profile-portrait">
-          <img
-            src={normalImage}
-            alt="Lwandiso Zwane"
-            className="portrait-image"
-          />
+        <div className="my-specs">
+          <div className="spec-item-1">
+            <a className="spec-header">Age:</a>
+            <a> 26</a>
+          </div>
+          <div className="spec-item-2">
+            <a className="spec-header">Location:</a>
+            <a>South Africa (Mpumalanga, Witbank)</a>
+          </div>
+          <div className="spec-item-3">
+            <a className="spec-header">Mobility:</a>
+            <a>Open to relocation</a>
+          </div>
         </div>
-        <div className="profile-cta">
-          <button
-            className="cta-button cv-download"
-            onClick={() => {
-              downloadCv(MY_CV);
-            }}
-          >
-            Download CV
-          </button>
+        <div className="my-bio">
+          <a>
+            Highly motivated and Certified Machine Learning Engineer
+            specialising in Industrial AI, Reasoning Systems, and MLOps. Proven
+            ability to design, architect, and deploy complex, modular
+            microservice systems (FastAPI, Docker, AWS) for predictive
+            maintenance and real-time anomaly detection. Focused on building
+            auditable and scalable AI solutions, demonstrated through rigorous,
+            self-directed projects (GridGuard, AVA) utilising multi-agent
+            orchestration and modern RAG frameworks.
+          </a>
         </div>
-      </div>
-
-      <div className="profile-content">
-        <div className="profile-intro">
-          <h1 className="intro-name">Lwandiso Zwane</h1>
-          <h2 className="intro-title">Machine Learning Engineer</h2>
-
-          <p className="intro-bio">
-            Machine Learning Engineer with expertise in building and deploying
-            ML models in production, specializing in predictive maintenance,
-            real-time analytics, and personalized AI applications. Proficient in
-            cloud computing (AWS/GCP), full-stack development (React, Node.js,
-            Django), and scalable infrastructure (Terraform, Docker,
-            Kubernetes). Passionate about designing data-driven solutions that
-            optimize business operations and drive digital innovation.
-          </p>
-        </div>
-
-        <div className="profile-social">
-          <button
-            onClick={() => [
-              navigator.clipboard.writeText("lwandisozwane91@gmail.com"),
-              alert("Email Copied To Clip Board"),
-            ]}
-            className="social-button email-button"
-          >
-            Email
-          </button>
-          <button
-            onClick={() => {
-              window.open(
-                "https://www.linkedin.com/in/lwandiso-zwane-60506a252/"
-              );
-            }}
-            className="social-button linkedin-button"
-          >
-            LinkedIn
-          </button>
-          <button
-            onClick={() => {
-              window.open("https://medium.com/@n_lwandisozwane");
-            }}
-            className="social-button medium-button"
-          >
-            Medium
-          </button>
-          <button
-            onClick={() => {
-              window.open("https://github.com/kidmpukane");
-            }}
-            className="social-button medium-button"
-          >
-            GitHub
-          </button>
-        </div>
-
-        <div className="profile-skills">
-          <h1 className="skills-heading">Technical Skills</h1>
-          <div className="skills-grid">
-            <div className="skills-column">
-              <ul className="skills-list">
-                <li className="skills-item">Python </li>
-                <li className="skills-item">TensorFlow/PyTorch</li>
-                <li className="skills-item">Scikit-learn</li>
-                <li className="skills-item">FastAPI </li>
-                <li className="skills-item">Docker </li>
-              </ul>
+        <div>
+          <a className="spec-header-l">CONTACT ME</a>
+          <div>
+            <a className="contact-me-h">Socials</a>
+            <div className="socails-list">
+              <a>-X</a>
+              <a>-LINKEDIN</a>
+              <a>-GITHUB</a>
+              <a>-EMAIL</a>
+              <a>MEDIUM</a>
             </div>
-            <div className="skills-column">
-              <ul className="skills-list">
-                <li className="skills-item">Kubernetes</li>
-                <li className="skills-item">AWS/GCP</li>
-                <li className="skills-item">PostgreSQL</li>
-                <li className="skills-item">React</li>
-                <li className="skills-item">GitHub Actions</li>
-              </ul>
+            <div className="profile-cta">
+              <button
+                className="cta-button cv-download"
+                onClick={() => {
+                  downloadCv(MY_CV);
+                }}
+              >
+                Download CV
+              </button>
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="technologies-skills">
+        <a className="ts-header">TECHNICAL DEPTH & COMPETENCIES</a>
+
+        {/* Machine Learning & AI */}
+        <section className="skill-section">
+          <h3 className="tech-stack-header">Machine Learning & AI</h3>
+
+          <ul className="tech-col">
+            <li>Predictive Maintenance</li>
+            <li>Fault & Anomaly Detection</li>
+            <li>Sequence Models (LSTM / Bi-LSTM)</li>
+            <li>NLP Intent Parsing</li>
+            <li>RAG Pipelines</li>
+            <li>Agentic Reasoning</li>
+            <li>Contextual Memory</li>
+          </ul>
+
+          <ul className="tech-col">
+            <li>Feature Engineering</li>
+            <li>Model Evaluation & Experiment Tracking</li>
+            <li>Explainability (SHAP, LIME)</li>
+            <li>Industrial AI Systems</li>
+          </ul>
+        </section>
+
+        {/* Software Engineering & Backend */}
+        <section className="skill-section">
+          <h3 className="tech-stack-header">Software Engineering & Backend</h3>
+
+          <ul className="tech-col">
+            <li>Python, Node.js, FastAPI</li>
+            <li>REST API Design</li>
+            <li>Microservice Architecture</li>
+            <li>Event-Driven Systems</li>
+            <li>Async Pipelines</li>
+          </ul>
+
+          <ul className="tech-col">
+            <li>CI/CD (GitHub Actions)</li>
+            <li>Docker, Terraform</li>
+            <li>SQL/NoSQL (PostgreSQL, MySQL)</li>
+            <li>Logging & Observability (FTIR/FDIR Tracing)</li>
+          </ul>
+        </section>
+
+        {/* Systems & Architecture */}
+        <section className="skill-section">
+          <h3 className="tech-stack-header">Systems & Architecture</h3>
+
+          <ul className="tech-col">
+            <li>Modular Reasoning Engines</li>
+            <li>Pluggable Agent Architectures</li>
+            <li>Event-Oriented, Data-Intensive Systems</li>
+            <li>Distributed Systems Patterns</li>
+          </ul>
+
+          <ul className="tech-col">
+            <li>Fault-Tolerant System Design</li>
+            <li>API Gateways</li>
+            <li>Schema Design & Versioning</li>
+            <li>Scalable, Evolvable, Observable Architectures</li>
+          </ul>
+        </section>
       </div>
     </div>
   );
 }
 
 export default AboutMe;
+
+// ("lwandisozwane91@gmail.com");
+// ("https://www.linkedin.com/in/lwandiso-zwane-60506a252/");
+// ("https://medium.com/@n_lwandisozwane");
+// ("https://github.com/kidmpukane");
