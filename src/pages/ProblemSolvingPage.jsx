@@ -36,59 +36,68 @@ function ProblemSolvingPage() {
         </div>
       </div>
       <div className="technologies-skills">
-        <a className="ts-header">Technical Depth & Competencies</a>
+        <h2 className="ts-header">Technical Depth & Competencies</h2>
 
         {/* Machine Learning & AI */}
-        <div className="ml-skills">
-          <a className="tech-stack-header">Machine Learning & AI</a>
-          <div className="tech-stack-list-right">
-            <p>
-              Predictive Maintenance, Fault & Anomaly Detection, Sequence Models
-              (LSTM/Bi-LSTM)
-            </p>
-            <p>
-              NLP Intent Parsing, RAG Pipelines, Agentic Reasoning, Contextual
-              Memory
-            </p>
-          </div>
-          <div className="tech-stack-list-left">
-            <p>Feature Engineering, Model Evaluation & Experiment Tracking</p>
-            <p>Explainability (SHAP, LIME), Industrial AI Systems</p>
-          </div>
-        </div>
+        <section className="skill-section">
+          <h3 className="tech-stack-header">Machine Learning & AI</h3>
+
+          <ul className="tech-col">
+            <li>Predictive Maintenance</li>
+            <li>Fault & Anomaly Detection</li>
+            <li>Sequence Models (LSTM / Bi-LSTM)</li>
+            <li>NLP Intent Parsing</li>
+            <li>RAG Pipelines</li>
+            <li>Agentic Reasoning</li>
+            <li>Contextual Memory</li>
+          </ul>
+
+          <ul className="tech-col">
+            <li>Feature Engineering</li>
+            <li>Model Evaluation & Experiment Tracking</li>
+            <li>Explainability (SHAP, LIME)</li>
+            <li>Industrial AI Systems</li>
+          </ul>
+        </section>
 
         {/* Software Engineering & Backend */}
-        <div className="swe-skills">
-          <a className="tech-stack-header">Software Engineering & Backend</a>
-          <div className="tech-stack-list-right">
-            <p>Python, Node.js, FastAPI, REST APIs</p>
-            <p>
-              Microservice Architecture, Event-Driven Systems, Async Pipelines
-            </p>
-          </div>
-          <div className="tech-stack-list-left">
-            <p>CI/CD (GitHub Actions), Docker, Terraform</p>
-            <p>
-              SQL/NoSQL (PostgreSQL, MySQL), Logging & Observability (FTIR/FDIR
-              Tracing)
-            </p>
-          </div>
-        </div>
+        <section className="skill-section">
+          <h3 className="tech-stack-header">Software Engineering & Backend</h3>
 
-        {/* Systems Architecture */}
-        <div className="architecture-skills">
-          <a className="tech-stack-header">Systems & Architecture</a>
-          <div className="tech-stack-list-right">
-            <p>Modular Reasoning Engines, Pluggable Agent Architectures</p>
-            <p>Event-Oriented, Data-Intensive & Distributed Systems</p>
-          </div>
-          <div className="tech-stack-list-left">
-            <p>
-              Fault-Tolerant Patterns, API Gateways, Schema Design & Versioning
-            </p>
-            <p>Scalable, Evolvable, and Observable System Design</p>
-          </div>
-        </div>
+          <ul className="tech-col">
+            <li>Python, Node.js, FastAPI</li>
+            <li>REST API Design</li>
+            <li>Microservice Architecture</li>
+            <li>Event-Driven Systems</li>
+            <li>Async Pipelines</li>
+          </ul>
+
+          <ul className="tech-col">
+            <li>CI/CD (GitHub Actions)</li>
+            <li>Docker, Terraform</li>
+            <li>SQL/NoSQL (PostgreSQL, MySQL)</li>
+            <li>Logging & Observability (FTIR/FDIR Tracing)</li>
+          </ul>
+        </section>
+
+        {/* Systems & Architecture */}
+        <section className="skill-section">
+          <h3 className="tech-stack-header">Systems & Architecture</h3>
+
+          <ul className="tech-col">
+            <li>Modular Reasoning Engines</li>
+            <li>Pluggable Agent Architectures</li>
+            <li>Event-Oriented, Data-Intensive Systems</li>
+            <li>Distributed Systems Patterns</li>
+          </ul>
+
+          <ul className="tech-col">
+            <li>Fault-Tolerant System Design</li>
+            <li>API Gateways</li>
+            <li>Schema Design & Versioning</li>
+            <li>Scalable, Evolvable, Observable Architectures</li>
+          </ul>
+        </section>
       </div>
     </div>
   );

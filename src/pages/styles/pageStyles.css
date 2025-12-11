@@ -255,16 +255,49 @@
 
 .ml-skills {
 }
+.technologies-skills {
+  display: grid;
+  gap: 2rem;
+}
+
+.ts-header {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.skill-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 1rem;
+}
+
 .tech-stack-header {
-  font-family: "JetBrains Mono", monospace;
+  grid-column: 1 / -1; /* header spans both columns */
   font-size: 1.4rem;
   font-weight: 600;
+  margin-bottom: 0.4rem;
+  font-family: "JetBrains Mono", monospace;
   color: #c7cdb7;
 }
-.tech-stack-list-right {
+
+.tech-col {
+  padding: 0;
+  margin: 0;
 }
-.tech-stack-list-left {
+
+.tech-col li {
+  margin: 0.25rem 0;
+  line-height: 1;
+  font-family: "JetBrains Mono", monospace;
+  color: #d9d9d9;
 }
+
+@media (max-width: 700px) {
+  .skill-section {
+    grid-template-columns: 1fr; /* stack into one column on mobile */
+  }
+}
+
 .swe-skills {
 }
 /*----------------------------------------------------------------------------------*/
