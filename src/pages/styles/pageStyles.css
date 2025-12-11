@@ -196,13 +196,12 @@
 
 /*-----------------------------About Me-----------------------------*/
 .about-me-container {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .personal-info-container {
   display: grid;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 1rem;
 }
 .name-and-occupation {
   display: grid;
@@ -210,6 +209,10 @@
   font-size: 1rem;
   font-weight: 400;
   color: #d9d9d9;
+}
+
+.name-and-occupation span {
+  margin-top: -3rem;
 }
 
 .spec-header-l {
@@ -220,16 +223,16 @@
 }
 .spec-header {
   font-family: "JetBrains Mono", monospace;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #c7cdb7;
 }
 .my-specs {
   font-family: "JetBrains Mono", monospace;
-  font-size: 1rem;
+  line-height: 2;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #d9d9d9;
-  line-height: 1.6;
 }
 
 .my-bio {
@@ -239,13 +242,8 @@
   max-width: 60ch;
   color: #d9d9d9;
 }
-
 .technologies-skills {
-  display: grid;
-  gap: 2rem;
-  padding: 2rem;
 }
-
 .ts-header {
   font-family: "Handjet", sans-serif;
   font-size: 2.6rem;
@@ -253,36 +251,21 @@
   color: #c7cdb7;
 }
 
-.ml-skills {
-}
-.technologies-skills {
-  display: grid;
-  gap: 2rem;
-}
-
-.ts-header {
-  font-size: 1.6rem;
-  font-weight: 600;
-}
-
 .skill-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem 1rem;
 }
 
 .tech-stack-header {
-  grid-column: 1 / -1; /* header spans both columns */
+  grid-column: 1 / -1;
   font-size: 1.4rem;
   font-weight: 600;
-  margin-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
   font-family: "JetBrains Mono", monospace;
   color: #c7cdb7;
 }
 
 .tech-col {
-  padding: 0;
-  margin: 0;
 }
 
 .tech-col li {
@@ -293,6 +276,14 @@
 }
 
 @media (max-width: 700px) {
+  .about-me-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .name-and-occupation span {
+    margin-top: 0rem;
+  }
   .skill-section {
     grid-template-columns: 1fr; /* stack into one column on mobile */
   }
