@@ -3,10 +3,7 @@ import "./styles/componentStyles.css";
 
 const ClickableContainer = (props) => {
   return (
-    <div
-      className="clickable-container"
-      onClick={() => console.log(props.onClick)}
-    >
+    <div className="clickable-container" onClick={() => props.onClick()}>
       <div className="project-container">
         <div className="p-spec">
           <p>{props.projectName}</p>
