@@ -243,6 +243,28 @@
   max-width: 60ch;
   color: #d9d9d9;
 }
+
+.cta-button-resume {
+  font-family: "Handjet", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  background-color: #84994f;
+  border: none;
+  border-width: none;
+  color: #333;
+}
+
+.cta-button-resume:hover {
+  background-color: #cfdecb;
+  color: #26414d;
+  border-width: none;
+  cursor: pointer;
+}
 .technologies-skills {
   padding: 2rem;
 }

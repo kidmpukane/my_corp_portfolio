@@ -61,12 +61,12 @@ function AboutMe() {
             </div>
             <div className="profile-cta">
               <button
-                className="cta-button cv-download"
+                className="cta-button-resume"
                 onClick={() => {
                   downloadCv(MY_CV);
                 }}
               >
-                Download CV
+                DOWNLOAD RESUME
               </button>
             </div>
           </div>
