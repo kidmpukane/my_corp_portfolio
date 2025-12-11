@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-scroll";
 
 function ProblemSolvingPage() {
   return (
@@ -34,7 +35,22 @@ function ProblemSolvingPage() {
             orchestration and modern RAG frameworks.
           </a>
         </div>
+        <div>
+          <a className="spec-header-l">CONTACT ME</a>
+          <div>
+            <a className="contact-me-h">Socials</a>
+            <div className="socails-list">
+              <a>-X</a>
+              <a>-LINKEDIN</a>
+              <a>-GITHUB</a>
+              <a>-EMAIL</a>
+              <a>MEDIUM</a>
+            </div>
+            <button>DOWNLOAD RESUME</button>
+          </div>
+        </div>
       </div>
+
       <div className="technologies-skills">
         <a className="ts-header">TECHNICAL DEPTH & COMPETENCIES</a>
 
